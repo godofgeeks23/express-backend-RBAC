@@ -1,4 +1,4 @@
-# this yml file is for running mongodb replica set on docker
+# this yml file is for running a singe instance mongodb replica set on docker
 
 services:
   mongo1:
