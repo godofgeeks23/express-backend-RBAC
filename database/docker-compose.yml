@@ -17,7 +17,7 @@ services:
       retries: 30
     volumes:
       - "rbac_app_mongo1_data:/data/db"
-      - "sample_app_mongo1_config:/data/configdb"
+      - "rbac_app_mongo1_config:/data/configdb"
 
 volumes:
   sample_app_mongo1_data:
