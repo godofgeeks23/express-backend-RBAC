@@ -16,7 +16,7 @@ services:
       start_interval: 1s
       retries: 30
     volumes:
-      - "sample_app_mongo1_data:/data/db"
+      - "rbac_app_mongo1_data:/data/db"
       - "sample_app_mongo1_config:/data/configdb"
 
 volumes:
