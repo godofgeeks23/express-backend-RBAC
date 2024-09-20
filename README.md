@@ -2,7 +2,6 @@
 
 Demonstrating Role Based Access Control (RBAC) in an Express backend app.
 
-
 ## Setup
 
 1. Clone the repository
