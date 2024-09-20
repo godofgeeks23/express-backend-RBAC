@@ -7,7 +7,7 @@ Demonstrating Role Based Access Control (RBAC) in an Express backend app.
 1. Clone the repository
 
 ```
-git clone https://github.com/godofgeeks23/boilerplate-express-mongo-jest.git
+git clone https://github.com/godofgeeks23/express-backend-RBAC.git
 ```
 
 2. Run `npm install` to install the dependencies
