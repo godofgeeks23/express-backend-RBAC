@@ -23,6 +23,7 @@ git clone https://github.com/godofgeeks23/express-backend-RBAC.git
 ├── controllers
 │   └── sample.controller.js
 ├── models
+|   ├── sample.model.js
 │   └── user.model.js
 ├── routes
 │   └── sample.route.js
