@@ -36,9 +36,6 @@ git clone https://github.com/godofgeeks23/express-backend-RBAC.git
 └── .env
 ```
 
-
-## Description of the files and folders:
-
 - `controllers`: Contains the controllers for the routes
 - `models`: Contains the models for the MongoDB collections
 - `routes`: Contains the routes for the server
