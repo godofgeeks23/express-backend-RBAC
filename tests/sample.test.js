@@ -14,7 +14,7 @@ afterEach(async () => {
   await mongoose.connection.close();
 });
 
-// Testing the API endpoints.
+// Testing the API endpoints
 describe("GET /api/products", () => {
   it("should return all products", async () => {
     const res = await request(app).get("/api/products");
