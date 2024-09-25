@@ -20,7 +20,6 @@ mv sample.env .env
 4. Run `npm run dev` to start the server
 5. Run `npm test` to run the tests
 
-
 ## Project structure for reference
 
 ```
@@ -51,7 +50,6 @@ mv sample.env .env
 - `package-lock.json`: Contains the dependencies and their versions
 - `.env`: Contains the environment variables
 - `sample.env`: Sample environment file
-
 
 ## NOTE:
 
