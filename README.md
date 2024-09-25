@@ -12,7 +12,7 @@ git clone https://github.com/godofgeeks23/express-backend-RBAC.git
 
 2. Run `npm install` to install the dependencies
 3. 
-3. Run `npm run dev` to start the server
+4. Run `npm run dev` to start the server
 4. Run `npm test` to run the tests
 
 
