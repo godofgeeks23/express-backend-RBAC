@@ -2,7 +2,7 @@ const mongoose = require("mongoose");
 
 const Schema = mongoose.Schema;
 
-// new schema for the product model
+// schema for the sample model
 const sampleSchema = new Schema(
   {
     name: {
