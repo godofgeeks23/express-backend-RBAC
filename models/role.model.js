@@ -3,7 +3,7 @@ const mongoose = require("mongoose");
 const Schema = mongoose.Schema;
 
 // schema for the sample model
-const sampleSchema = new Schema(
+const roleSchema = new Schema(
   {
     name: {
       type: String,
@@ -17,4 +17,4 @@ const sampleSchema = new Schema(
   { timestamps: true }
 );
 
-module.exports = mongoose.model("Sample", sampleSchema);
+module.exports = mongoose.model("Role", roleSchema);
