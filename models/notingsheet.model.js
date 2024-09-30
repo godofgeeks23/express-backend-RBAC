@@ -3,7 +3,7 @@ const mongoose = require("mongoose");
 const Schema = mongoose.Schema;
 
 // schema for the sample model
-const sampleSchema = new Schema(
+const notingsheetSchema = new Schema(
   {
     name: {
       type: String,
