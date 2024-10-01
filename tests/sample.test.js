@@ -4,7 +4,7 @@ const app = require("../app");
 
 require("dotenv").config();
 
-// Connecting to the database before each test
+// connecting to the database before each test
 beforeEach(async () => {
   await mongoose.connect(process.env.MONGODB_URI);
 });
