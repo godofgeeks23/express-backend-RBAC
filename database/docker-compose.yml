@@ -19,6 +19,7 @@ services:
       - "rbac_app_mongo1_data:/data/db"
       - "rbac_app_mongo1_config:/data/configdb"
 
+# for persisting data
 volumes:
   sample_app_mongo1_data:
   sample_app_mongo1_config:
