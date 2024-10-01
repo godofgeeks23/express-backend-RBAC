@@ -1,4 +1,4 @@
-# Docker compose file for running a singe instance mongodb replica set on docker
+# docker-compose file for running a singe instance mongodb replica set on docker
 
 services:
   mongo1:
