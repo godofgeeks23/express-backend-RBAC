@@ -1,0 +1,36 @@
+{
+  "name": "loginsignup",
+  "version": "1.0.0",
+  "description": "the rest API for login and sign-up",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon server.js",
+    "build": "webpack",
+    "test": "jest --testTimeout=5000"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.2",
+    "cookie-parser": "^1.4.5",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.19.2",
+    "jsonwebtoken": "^9.0.0",
+    "mongoose": "^6.11.3",
+    "nodemon": "^2.0.17",
+    "validator": "^13.7.0"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "supertest": "^6.3.4",
+    "webpack": "^5.91.0"
+  },
+  "jest": {
+    "testEnvironment": "node",
+    "coveragePathIgnorePatterns": [
+      "/node_modules/"
+    ]
+  }
+}
