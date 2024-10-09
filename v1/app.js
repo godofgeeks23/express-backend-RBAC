@@ -32,7 +32,7 @@ process.on("uncaughtException", async (err) => {
 });
 
 // adding new user (sign-up route)
-app.post("/api/register", function (req, res) {
+app.post("/user/register", function (req, res) {
   const newuser = new User(req.body);
   console.log(newuser);
 
@@ -56,7 +56,7 @@ app.post("/api/register", function (req, res) {
 });
 
 // login user
-app.post("/api/login", function (req, res) {
+app.post("/auth/login", function (req, res) {
   let token = req.cookies.auth || "";
 
   User.findByToken(token, async (err, user) => {
