@@ -105,7 +105,7 @@ app.post("/auth/login", function (req, res) {
 });
 
 //logout user
-app.get("/api/logout", auth, function (req, res) {
+app.get("/auth/logout", auth, function (req, res) {
   req.user.deleteToken(req.token, (err, user) => {
     if (err) return res.status(400).send(err);
     res.sendStatus(200);
