@@ -133,7 +133,6 @@ app.get("/", async function (req, res) {
     .send("Server is running. Please use the API endpoints to access data.");
 });
 
-
 app.get("/api/adminOnly", auth, checkRole([ROLE.admin]), async (req, res) => {
   res.json({
     status: "ok",
