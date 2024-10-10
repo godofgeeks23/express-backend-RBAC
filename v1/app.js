@@ -113,7 +113,7 @@ app.get("/auth/logout", auth, function (req, res) {
 });
 
 // get logged in user
-app.get("/api/profile", auth, async function (req, res) {
+app.get("/user/profile", auth, async function (req, res) {
   try {
     res.json({
       isAuth: true,
