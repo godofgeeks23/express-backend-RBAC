@@ -133,15 +133,6 @@ app.get("/", async function (req, res) {
     .send("Server is running. Please use the API endpoints to access data.");
 });
 
-// api for profile page - user profile
-app.get("/api/user/profile", auth, async (req, res) => {
-  const thisuser = await User.findOne(
-    { _id: req.user._id },
-    { fname: 1, lname: 1, email: 1, role: 1 }
-  );
-  // send response
-  res.json({ status: "ok", data: thisuser });
-});
 
 app.get("/api/adminOnly", auth, checkRole([ROLE.admin]), async (req, res) => {
   res.json({
