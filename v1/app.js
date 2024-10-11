@@ -148,7 +148,7 @@ app.get("/role/userOnly", auth, checkRole([ROLE.user]), async (req, res) => {
 });
 
 app.get(
-  "/api/userandadmin",
+  "/role/userandadmin",
   auth,
   checkRole([ROLE.admin, ROLE.user]),
   async (req, res) => {
