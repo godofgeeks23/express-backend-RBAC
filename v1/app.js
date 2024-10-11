@@ -133,14 +133,14 @@ app.get("/", async function (req, res) {
     .send("Server is running. Please use the API endpoints to access data.");
 });
 
-app.get("/api/adminOnly", auth, checkRole([ROLE.admin]), async (req, res) => {
+app.get("/role/adminOnly", auth, checkRole([ROLE.admin]), async (req, res) => {
   res.json({
     status: "ok",
     message: "You are authorized to access this role!",
   });
 });
 
-app.get("/api/userOnly", auth, checkRole([ROLE.user]), async (req, res) => {
+app.get("/role/userOnly", auth, checkRole([ROLE.user]), async (req, res) => {
   res.json({
     status: "ok",
     message: "You are authorized to access this role!",
