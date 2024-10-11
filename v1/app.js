@@ -148,11 +148,11 @@ app.get("/role/userOnly", auth, checkRole([ROLE.user]), async (req, res) => {
 });
 
 app.get(
-  "/role/userandadmin",
+  "/role/userAndAdmin",
   auth,
   checkRole([ROLE.admin, ROLE.user]),
   async (req, res) => {
-    res.json({
+    res.json({api
       status: "ok",
       message: "You are authorized to access this role!",
     });
