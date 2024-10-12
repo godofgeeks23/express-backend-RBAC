@@ -10,7 +10,7 @@ const {
 
 const router = express.Router();
 
-// creating routes for the product controller
+// defining routes for the product controller
 router.get("/products", getProducts);
 router.get("/products/:id", getProduct);
 router.post("/products", createProduct);
