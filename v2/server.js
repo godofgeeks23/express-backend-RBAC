@@ -10,7 +10,7 @@ mongoose
   .then(() => {
     app.listen(
       PORT,
-      console.log("Connected to DB and Server started on port 5000")
+      console.log(`Connected to DB and Server started on port ${PORT}`)
     );
   })
   .catch((err) => {
