@@ -10,7 +10,7 @@ app.get("/", (req, res) => {
   res.status(200).json({ alive: "True" });
 });
 
-// Telling the server to use the routes in the SampleRoutes file
+// tell server to use routes in SampleRoutes file
 app.use("/api", SampleRoutes);
 
 module.exports = app;
