@@ -2,7 +2,7 @@ const express = require("express");
 const SampleRoutes = require("./routes/sample.route");
 const app = express();
 
-// middleware to parse the body of the request and make it available in the req.body object
+// middleware to parse body of request and make it available in the req.body object
 app.use(express.json());
 
 // root route - to check if the server is up
