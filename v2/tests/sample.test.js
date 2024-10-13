@@ -60,7 +60,7 @@ describe("PUT /api/products/:id", () => {
 describe("DELETE /api/products/:id", () => {
   it("should delete a product", async () => {
     const res = await request(app).delete(
-      "/api/products/6331abc9e9ececcc2d449e44"
+      "/api/products/id"
     );
     expect(res.statusCode).toBe(200);
   });
